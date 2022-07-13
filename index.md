@@ -1,37 +1,249 @@
-## Welcome to GitHub Pages
+## 重構音檔
+## 七路無人售票
+6 8 3 9 9 7 15 7 11 9 1 8 10 9
+<table>
+    <tr>
+        <td>        
+            <audio controls>
+                <source src="audio/pred_test.wav" type="audio/wav">
+            </audio>
+        </td>
+    </tr>
+</table>
 
-You can use the [editor on GitHub](https://github.com/BabaiLi/test_af_smooth/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BabaiLi/test_af_smooth/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## 分割片段平滑化 增強 / 減弱 AF 
+6 8 3 9 9 7 15 7 11 9 1 8 10 9
+<div style="border-style:none;width:auto;">
+    <table>
+        <tr>
+            <th></th>
+            <th>增強</th>
+            <th>減弱</th>
+        </tr>
+        
+        <tr>
+            <th>第 1 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_0_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_0_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 2 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_1_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_1_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 3 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_2_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_2_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 4 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_3_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_3_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 5 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_4_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_4_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 6 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_5_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_5_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 7 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_6_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_6_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 8 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_7_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_7_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 9 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_8_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_8_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 10 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_9_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_9_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 11 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_10_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_10_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 12 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_11_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_11_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 13 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_12_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_12_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 14 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_13_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_13_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 15 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_14_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_14_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+        
+        <tr>
+            <th>第 16 類 AF</th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_15_add.wav" type="audio/wav">
+                </audio>
+            </th>
+            <th>
+                <audio controls>
+                    <source src="audio/pred_test_15_diff.wav" type="audio/wav">
+                </audio>
+            </th>
+        </tr>
+    </table>
+</div>
